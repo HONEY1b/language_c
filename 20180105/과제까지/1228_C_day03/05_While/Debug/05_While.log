@@ -1,0 +1,24 @@
+﻿빌드 시작: 2018-01-05 오후 4:18:57
+     1>2 노드의 "C:\Users\Administrator\Desktop\1228_C_day03\05_While\05_While.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\05_While.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt While02.c
+         While02.c
+     1>c:\users\administrator\desktop\1228_c_day03\05_while\while02.c(14): warning C4244: '함수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\administrator\desktop\1228_c_day03\05_while\while02.c(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\1228_C_day03\Debug\05_While.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\05_While.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\1228_C_day03\Debug\05_While.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\1228_C_day03\Debug\05_While.lib" /MACHINE:X86 Debug\While02.obj
+     1>While02.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
+         05_While.vcxproj -> C:\Users\Administrator\Desktop\1228_C_day03\Debug\05_While.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\1228_C_day03\Debug\05_While.exe;#1" /manifest Debug\05_While.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\05_While.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\05_While.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\Administrator\Desktop\1228_C_day03\05_While\05_While.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.40

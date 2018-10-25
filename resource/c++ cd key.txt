@@ -1,0 +1,8 @@
+microsoft  visual c++ 2010 
+
+
+¼³Ä¡¼ø¼­ : 1. vc_web.exe
+	   2. VS10sp1-KB983509.exe //¼­ºñ½ºÆÑ ¾È±ò¾ÆµµµÊ
+cd key
+
+6VPJ7-H3CXH-HBTPT-X4T74-3YVY7
